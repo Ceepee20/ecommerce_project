@@ -1,0 +1,263 @@
+
+
+
+
+
+
+
+
+
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+h1{
+    color:rgb(30, 255, 0);
+}
+  h1 span{
+    color:white;
+    
+}
+
+a:hover{
+    color:rgb(30, 255, 0);
+}
+
+.img{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('assets/img/img4.jpg') ;
+    min-height: 500px;
+    background-repeat: no-repeat;background-size: cover;
+}
+
+#logg{
+    color: white ;padding:20px 0px;text-align: center;
+}
+
+
+
+.link p{
+    color: white;font-weight: bolder;
+}
+.link a{
+    text-decoration: none;color: white;
+}
+i{
+    color: white;padding-right: 10px;
+}
+#abt{
+width: 600px; 
+}
+#about{
+    min-height: 398px;background-color: white;
+    margin: auto;
+}
+.outer{
+position: relative;display: inline-block;
+}
+
+
+#more h3{
+    color: black;font-weight: bolder;font-size: 30px;
+}
+#more span{
+    color: rgb(30, 255, 0);
+}
+#service{
+    width:1000px;background-color:white;text-align:center;margin:auto;border-radius: 5px;
+    min-height: 600px;margin-top: 10px;
+}
+#serve{
+     min-height:700px;text-align:center;background-color:lightgrey;
+}
+
+#served .col-md-6{
+    min-height: 150px;border-radius: 5px;box-shadow: 5px 5px 2px  lightgray;margin: auto;
+
+    width:350px
+
+}
+#served .col-md-6:hover{
+    border:1px solid rgb(30, 255, 0);
+}
+.adminform{
+
+    background-color: rgb(30, 255, 0);min-height: 300px;width: 400px;border-radius: 4px;
+    position: absolute; top: 150px; left: 100px;
+}
+
+#admin{
+    background-image:linear-gradient(rgba(0, 0 ,0 ,0.3),rgba(0, 0, 0 ,0.5)),url("assets/img/img6.jpg");
+    min-height: 600px;background-repeat: no-repeat;background-size: cover;
+    
+
+}
+
+#admin p{color: white;font-size: 20px;padding: 100px;
+
+}
+
+#adf{
+    width: 300px;padding-left: 80px;
+}
+#adf #a{
+    color: white;padding-left: 140px;font-size: 10px;
+}
+
+#logi{
+   background-color: rgb(0, 139, 49); color: white;text-align: center;width: 100px;margin-left: 50px;border-radius: 2px;height: 40PX;
+}
+
+#signa{
+    text-align: center;color: white;font-size: 10px; padding-left: 40px;
+}
+
+#pass{
+    color: white;font-size: 10px;
+}
+#sig{
+    color: white;font-size: 10px;
+}
+
+@media all and (max-width:500px){
+    .adminform{
+        width:200px; position: absolute;left: 60px;
+    }
+    #adf{
+        width:150px;padding-left:10px;
+    }
+
+    #logi{
+        margin-left: 30px;
+    }
+    #admin p{
+        font-size: 9px;padding: 120px 50px;
+        
+    }
+    #adf #a{
+            padding-left: 50px;
+    }
+    #signa{
+        padding-left: 5px;font-size: 8px;
+    }
+    #pass{
+        font-size: 8px;
+    }
+    #sig{
+       font-size: 8px;
+    }
+}
+
+
+.order{
+     color: white;font-size: 10px;min-height: 100px; background-color: black;border-radius: 5px;margin:auto;width: 100px;
+}
+
+.order span{
+    font-size: 20px;
+}
+.history{
+    background-color: black;min-height: 200px;margin: 20px 12px;width: 580px;
+}
+
+
+
+.hist{
+    color: white;font-size: 10px;padding-top: 20px;
+}
+.his{
+    border: 0px;background-color: black;color: white;margin:20px 0px 0px 200px;font-size: 10px;
+}
+.ta{
+    color: white;font-size: 10px;margin-top: 30px;
+}
+
+
+
+
+.trac{
+    min-height: 200px;box-shadow: 5px 5px 5px 5px black; width: 450px;margin:auto;border-radius: 5px;margin-top: 20px;
+}
+.search{
+    width: 270px;min-height: 30px;margin: 15px 0px 0px 35px;position: relative;
+}
+
+
+.search i{
+    font-size: 12px;position: absolute;left:220px; top:15px
+}
+.search input{
+    width: 300px;background-color: black;border:0px
+}
+.bell{
+    position: absolute;left: 1200px;top:30px ;
+}
+
+#pack{
+    color: black;font-size: 12px;
+}
+iframe{
+    margin-left: 60px;
+}
+
+
+.pay{
+    box-shadow: 5px 5px 5px 5px lightgray;min-height: 100px;margin-top: 70px;width: 450px;
+}
+.paybtn{
+    background-color: rgb(30, 255, 0);width: 100px;color: white;font-size: 10px;margin: 20px 0px 20px 160px;
+}
+.paybtn:hover{
+    background-color: rgb(30, 255, 0) ; color:white
+}
+
+#spann{
+    padding-left: 110px;font-size: 13px;
+}
+
+.paytrack{
+    box-shadow: 5px 5px 5px 5px lightgray;min-height: 200px;margin-top: 70px;width: 450px;
+}
+
+
+.gentrack{
+    box-shadow: 5px 5px 5px 5px lightgray;min-height: 200px;margin-top: 70px;width: 450px;
+
+}
+
+#id{
+    color: white;
+}
+
+.contact{
+    box-shadow: 5px 5px 5px 5px lightgray;min-height: 200px;margin-top: 50px;width: 450px;margin-bottom: 20px;
+
+}
+
+.con{
+    font-size: 12px;
+}
+
+.cont{
+    font-weight: bolder;font-size: 15px;
+}
+
+
+.adminn{
+    box-shadow: 5px 5px 5px 5px black;min-height: 200px;margin: auto;width: 450px;margin-top: 30px;
+}
+
+
+
+
+.lo{
+    padding-left:300px;padding-top: 15px;
+}
+
+.lo a{
+    color: rgb(30, 255, 0);text-decoration: none;
+}
