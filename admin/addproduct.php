@@ -7,6 +7,7 @@ $categories =$cat->fetch_category();
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +30,7 @@ $categories =$cat->fetch_category();
 <body>
 <div class="container-fluid">
     
-    <div class="row" style="position:relative; top:100px; height: 700px;">
+  <div class="row" style="position:relative; top:100px; height: 700px;">
          <div class="col-md-3 mb-4">
     <div class="card mb-4">
       <div class="card-header py-3">
@@ -45,7 +46,7 @@ $categories =$cat->fetch_category();
             <hr>
             <div>
             
-            <a href="profile.php"><<< Back To Profile</a>
+            <a href="profile.php" style="text-decoration:none; color:red"> << Back To Profile</a>
         </div>
         </div>
 
@@ -127,17 +128,13 @@ $categories =$cat->fetch_category();
   </div>
 
  
+  </div>
 </div>
-</div>
-
- 
-
-
 
 <?php
 require_once("partial/footer.php");
 ?>
-
+         
 
 <script src="bootstrap/js/bootstrap.bundle.js"></script>
 </body>

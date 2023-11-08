@@ -70,6 +70,9 @@ include_once "partial/header.php";
             </form>
             <p class="mt-3">Not signed up with us yet? <a href="signup.php" class="btn text-primary" name="login_btn">Signup Here</a></p>
         </div>
+        <div class="text-end">
+                <a href="#top" class="text-secondary"><i class="fa-solid fa-arrow-turn-up fa-flip-horizontal"></i>Back to top</a>
+            </div>
     </div>
 </div>
 

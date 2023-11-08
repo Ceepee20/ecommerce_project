@@ -64,7 +64,7 @@ if(isset($_SESSION["user_id"])){
         <hr>
             <div>
             
-            <a href="profile.php"><<< Back To Profile</a>
+            <a href="profile.php" style="text-decoration:none; color:red"><< Back To Profile</a>
         </div>
         </div>
 
@@ -111,7 +111,9 @@ if(isset($_SESSION["user_id"])){
 </div>
 </div>
 
- 
+          <div class="text-end">
+                <a href="#top" class="text-secondary"><i class="fa-solid fa-arrow-turn-up fa-flip-horizontal"></i>Back to top</a>
+            </div>
 
 
 

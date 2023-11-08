@@ -114,7 +114,9 @@
                   </div>
     
             </div>
-            
+            <div class="text-end">
+                <a href="#top" class="text-secondary"><i class="fa-solid fa-arrow-turn-up fa-flip-horizontal"></i>Back to top</a>
+            </div>
                   
                      
         </div>

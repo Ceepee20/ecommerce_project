@@ -1,33 +1,26 @@
 <div class="row" style="height: 280px;">
                 <div class='col btn btn-dark'>
-                        <h5 style="color:white"><img src="image/logo1.jpg"style="height:50px">THE WATCH PAGES</h5>
+                        <h5 style="color:white"><img src="image/logo1.jpg"style="height:50px">THE WATCHE PAGES</h5>
+                        <br>
+                         <hr>
+                         <h6>Social Media Handle</h6>
+                        <ul class="nav justify-content-center">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="https://web.facebook.com/groups/792184914687016/">Faceboook</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.instagram.com/p/Cy77BqqPlWB/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">Instgram</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.instagram.com/p/Cy77BqqPlWB/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">Twitter</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                </li>
+                                </ul>
+                                <h7 style="position:relative;top:1rem;color:darkgray">&#169 2023 The Watch Pages NA. Website by David Asini </h7>
 
-                    <span style="position: relative;top:50px;"> 
-                        <h6 style="color:darkgray">Legal</h6> 
-                        <a style="text-decoration: none;color:black;color:darkgray" href="#">Terms of Service</a><br> 
-                        <a  style="text-decoration: none;color:black;color:darkgray"href="#">Privacy Policy</a> <br>
-                        <a  style="text-decoration: none;color:black;color:darkgray"href="#">Cooky Policy</a> 
-                    </span>
                 </div>
                   
-                     <span style="position: relative;left:300px;bottom:50px;"> 
-                        <h6 style="color:darkgray">Social Media</h6> 
-                        <a style="text-decoration: none;color:black;color:darkgray" href="#">Facebook</a> <br>
-                        <a style="text-decoration: none;color:black;color:darkgray" href="#">Instagram</a> 
-                    </span>
-                    <span style="position:relative;left:400px;color:darkgray">&#169 2023 The Watch Pages NA. Website by Davis A </span>
-
-                        <span style="position: relative;left:900px;bottom: 150px;"> 
-                                <h6 style="color:darkgray">The Watch Pages Monthly Newsletter</h6>
-                                <p  style="color:darkgray">Never miss out on our popular stories and latest watches</p> 
-                                <form action="action.php" method="post">
-                                        
-                                             <label for="Email"></label>
-                                             <input type="text" name="email" id="email"placeholder="Your email">
-                                             <button type="submit" name="send_msg" >Send</button>
-                                             
-                                      
-                                </form> 
-                       </span>
-        </div>
-
+                    
+</div>

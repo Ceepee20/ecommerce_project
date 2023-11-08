@@ -70,7 +70,7 @@ if(isset($_SESSION["user_id"])){
                     <hr>
             <div>
             
-            <a href="brand_category.php"><<< Back To Brand Category Product</a>
+            <a href="brand_category.php" style="text-decoration:none; color:red"> << Back To Latest Brand Products</a>
         </div>
                 </form>
             </div>

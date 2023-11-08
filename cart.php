@@ -62,8 +62,11 @@ $totalPrice = 0;
        
             <div>
             
-            <a href="brand_category.php"><<< Back To Latest Brand Product</a>
+            <a href="brand_category.php"   style="text-decoration:none; color:red"> << Back To Latest Brand Products</a>
         </div>
+        <div class="text-end">
+                <a href="#top" class="text-secondary"><i class="fa-solid fa-arrow-turn-up fa-flip-horizontal"></i>Back to top</a>
+            </div>
        
 
     <!-- Footer -->
