@@ -19,26 +19,14 @@ if(isset($_SESSION["user_id"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Profile Page</title>
    <link href='bootstrap/css/bootstrap.css' rel="stylesheet" type="text/css">
-    <style type="text/css">
-    #container{     
-             min-height:100px;
-            
-            
-            display: flex;    
-      }
- 
-
-
-      
-
-    </style>
+    <style type="text/css"></style>
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     
     <div class="row" style="position:relative; top:100px;min-height:40rem">
    
-         <div class="col-md-3 mb-4">
+         <div class="col-md">
     <div class="card mb-4">
       <div class="card-header py-3">
         <h5 class="mb-0">Profile</h5>
@@ -47,7 +35,7 @@ if(isset($_SESSION["user_id"])){
        <div class="row">
         <div class="col-md">
             <div class="text-center mb-3">
-                <img src="image/ceo1.jpg" class="img-fluid rounded-circle">
+                <img src="image/ceo1.jpg" class="img rounded-circle">
             </div>
              <div class="col-md text-center" >
              <a href ="uploadprofilepicture.php" class="btn btn-primary btn-block btn-sm">

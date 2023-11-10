@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-    <div class="container-flexbox">
+    <div class="container-fluid">
       
         <div class="row">
      

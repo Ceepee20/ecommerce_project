@@ -23,25 +23,11 @@ if(isset($_SESSION["user_id"])){
     <title>Pay Form Page</title>
    <link href='bootstrap/css/bootstrap.css' rel="stylesheet" type="text/css">
    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
-    <style type="text/css">
-    #container{     
-             min-height:500px;
-            
-
-      }
-      .quantity{
-             display:none;
-      }
- 
-
-                              
-               
-
-    </style>
+    <style type="text/css"></style>
 </head>
 <body>
 
-<div class="container-flexbox;" >
+<div class="container;" >
         <!-- Navbar Section -->
         <?php include("partial/header.php") ?>
         <!-- order Summary -->
@@ -67,18 +53,19 @@ if(isset($_SESSION["user_id"])){
                         <button class="btn btn-outline-dark proimage btn-lg" id="pay">Pay</button>
                         <i class="fa-solid fa-arrow-pointer fa-beat-fade fa-lg"></i>
                     </div>
+                        
                     <hr>
             <div>
+                 </form>
             
             <a href="brand_category.php" style="text-decoration:none; color:red"> << Back To Latest Brand Products</a>
         </div>
-                </form>
+               
             </div>
             <div class="text-end">
                 <a href="#top" class="text-secondary"><i class="fa-solid fa-arrow-turn-up fa-flip-horizontal"></i>Back to top</a>
             </div>
-            <div class="col-6">
-            </div>
+           
         </div>
         <!-- footer -->
         <?php include("partial/footer.php") ?>

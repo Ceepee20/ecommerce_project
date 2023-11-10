@@ -60,7 +60,7 @@ $totalPrice=0;
     </style>
 </head>
 <body>
-<div class="container-flexbox;" style="position: relative; top: 4rem; max-width: 100%; justify-content: center;">
+<div class="container-fluid;">
         <!-- Navbar Section -->
         <?php include("Partial/header.php") ?>
         <!-- order Summary -->

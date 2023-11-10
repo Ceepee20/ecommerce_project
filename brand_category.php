@@ -25,7 +25,7 @@ $productlist = $product->fetch_all_products();
     </style>
 </head>
 <body>
-    <div class="container-flexbox">
+    <div class="container-fluid">
         <div class="row" style="height: 5rem; position: relative; top: 18rem;">
             <div class="col-md">
                 <h1 style="text-decoration: none; color: black; position: relative; left: 20px; bottom: 9rem;">Audemars Davislaurex x</h1>
